@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {
+      "id": "market-prices-dayahead",
+      "routePath": "market/prices/dayAhead/PT60M",
+      "areas": ["BZN|10YSK-SEPS-----K"],
+      "timeZone": "CET",
+      "window": { "anchorTimeZone": "Europe/Bratislava", "startOffsetDays": 1, "durationDays": 1 },
+      "enrichment": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    {
+      "id": "border-flows",
+      "routePath": "transmission/borderFlows",
+      "areas": ["CTA|10YSK-SEPS-----K"],
+      "timeZone": "CET",
+      "window": { "anchorTimeZone": "Europe/Bratislava", "startOffsetDays": 1, "durationDays": 1 },
+      "enrichment": {
+        "source": "borderRegistry",
+        "instanceKeyAttribute": "TIE_LINE_EIC",
+        "columns": ["borderName", "voltageLevel"]
+      }
+    }
+  ]
+}

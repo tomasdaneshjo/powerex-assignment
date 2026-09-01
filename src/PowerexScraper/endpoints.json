@@ -1,0 +1,36 @@
+{
+  "datasets": [
+    {
+      "id": "generation-forecast-dayahead",
+      "routePath": "generation/forecast/dayAhead",
+      "areas": ["CTA|10YSK-SEPS-----K"],
+      "timeZone": "CET",
+      "window": { "anchorTimeZone": "Europe/Bratislava", "startOffsetDays": 1, "durationDays": 1 },
+      "enrichment": null
+    },
+    {
+      "id": "generation-actual-perunit",
+      "routePath": "generation/actual/perUnit",
+      "areas": ["CTA|10YSK-SEPS-----K"],
+      "timeZone": "CET",
+      "window": { "anchorTimeZone": "Europe/Bratislava", "startOffsetDays": -1, "durationDays": 1 },
+      "enrichment": {
+        "source": "supplement",
+        "instanceKeyAttribute": "COMPOSITE_EIC",
+        "columns": ["unitName", "productionType", "installedCapacity"]
+      }
+    },
+    {
+      "id": "generation-actual-perunit-cz",
+      "routePath": "generation/actual/perUnit",
+      "areas": ["CTA|10YCZ-CEPS-----N"],
+      "timeZone": "CET",
+      "window": { "anchorTimeZone": "Europe/Bratislava", "startOffsetDays": -1, "durationDays": 1 },
+      "enrichment": {
+        "source": "supplement",
+        "instanceKeyAttribute": "COMPOSITE_EIC",
+        "columns": ["unitName", "locationName", "voltageLevel", "productionUnitEIC"]
+      }
+    }
+  ]
+}

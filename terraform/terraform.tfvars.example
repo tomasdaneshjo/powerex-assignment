@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars and adjust. Everything has sensible defaults;
+# the file exists so deviations are explicit and versionable.
+# region          = "eu-central-1"
