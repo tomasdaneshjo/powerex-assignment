@@ -1,0 +1,19 @@
+# IDE
+.idea/
+*.user
+
+# .NET
+bin/
+obj/
+out/
+
+# Lambda artifacts
+dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+crash.log
