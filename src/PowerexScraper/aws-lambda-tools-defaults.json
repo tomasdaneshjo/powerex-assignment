@@ -1,0 +1,9 @@
+{
+  "region": "eu-central-1",
+  "configuration": "Release",
+  "function-runtime": "dotnet10",
+  "function-architecture": "arm64",
+  "function-memory-size": 512,
+  "function-timeout": 120,
+  "function-handler": "PowerexScraper::PowerexScraper.Function::HandleAsync"
+}

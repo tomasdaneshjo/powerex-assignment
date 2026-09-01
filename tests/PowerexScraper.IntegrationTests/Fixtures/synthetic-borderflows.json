@@ -1,0 +1,29 @@
+{
+  "uuAppErrorMap": {},
+  "dataViewCode": "GUI_SYNTHETIC_BORDER_FLOWS",
+  "instanceList": [
+    {
+      "timeInterval": { "from": "2026-08-31T22:00:00Z", "to": "2026-09-01T22:00:00Z" },
+      "businessDimensionMap": { "AREA": "CTA|10YSK-SEPS-----K", "TIE_LINE": "SK-HU-1" },
+      "instanceAttributeMap": { "TIE_LINE_EIC": "10T-SK-HU-00001A" },
+      "curveData": {
+        "curveType": "A01",
+        "periodList": [
+          {
+            "timeInterval": { "from": "2026-08-31T22:00:00Z", "to": "2026-09-01T22:00:00Z" },
+            "resolution": "PT60M",
+            "pointMap": { "0": ["412.00"], "1": ["398.50"] }
+          }
+        ]
+      }
+    }
+  ],
+  "metaData": [ { "code": "PHYSICAL_FLOW", "name": "Physical flow", "dataItemCode": "SYNTHETIC" } ],
+  "intervalPageInfo": { "pageSize": 2147483647, "total": 1, "itemIndex": 0 },
+  "borderRegistry": {
+    "10T-SK-HU-00001A": {
+      "borderName": "SEPS → MAVIR",
+      "voltageLevel": "400"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uuAppErrorMap": {},
+  "dataViewCode": "GUI_PRICES_DAY_AHEAD",
+  "instanceList": [
+    {
+      "timeInterval": { "from": "2026-09-01T22:00:00Z", "to": "2026-09-02T22:00:00Z" },
+      "businessDimensionMap": { "AREA": "BZN|10YSK-SEPS-----K" },
+      "instanceAttributeMap": {},
+      "curveData": {
+        "curveType": "A01",
+        "periodList": [
+          {
+            "timeInterval": { "from": "2026-09-01T22:00:00Z", "to": "2026-09-02T22:00:00Z" },
+            "resolution": "PT60M",
+            "pointMap": { "0": ["101.10"], "1": ["102.20"], "2": [{ "alt": "N/A" }] }
+          }
+        ]
+      }
+    }
+  ],
+  "metaData": [ { "code": "DAY_AHEAD_PRICE", "name": "Price", "dataItemCode": "DAY_AHEAD_PRICES" } ],
+  "intervalPageInfo": { "pageSize": 2147483647, "total": 1, "itemIndex": 0 }
+}
