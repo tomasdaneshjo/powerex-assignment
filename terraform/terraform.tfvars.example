@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars and fill in. The API key is the only required value:
+# api_key = "your-key"
+# region  = "eu-central-1"
