@@ -1,0 +1,3 @@
+# Runtime dependencies vendored into the Lambda package.
+lxml==6.1.3
+isodate==0.7.2
