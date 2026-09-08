@@ -15,5 +15,12 @@ dist/
 *.tfstate
 *.tfstate.*
 terraform.tfvars
-.terraform.lock.hcl
 crash.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# local secrets
+*.env
